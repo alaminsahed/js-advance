@@ -71,14 +71,16 @@
 // }
 
 
-// var a = 10;
+//var a = 10;
 
 // function b() {
+
 //     console.log(a);
-//     var a;
+//     var a = 10; // undefine
 // }
 
 // b();
 
 
 //let a 
+

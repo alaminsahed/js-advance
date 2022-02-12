@@ -77,3 +77,30 @@
 // console.log(window)-> it saves var value in window. that's why access from anywhere.
 
 
+// const a = 10;
+
+// function add() {
+//     const a = 12;
+//     console.log(12);
+// }
+
+
+// const obj = {
+//     a: 10,
+//     b: 12
+// }
+
+// const obj2 = {
+//     ...obj,
+//     a: 11
+// }
+
+// console.log(obj2);
+
+function printA() {
+
+    console.log(answer);
+    var answer = 1;
+}
+printA();
+//printA();
