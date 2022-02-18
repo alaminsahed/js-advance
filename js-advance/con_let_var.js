@@ -97,10 +97,12 @@
 
 // console.log(obj2);
 
-function printA() {
+// function printA() {
 
-    console.log(answer);
-    var answer = 1;
-}
-printA();
+//     console.log(answer);
+//     var answer = 1;
+// }
+// printA();
 //printA();
+
+
