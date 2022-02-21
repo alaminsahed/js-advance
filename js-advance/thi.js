@@ -88,7 +88,9 @@
 
 // function Person(name, age) {
 //     //let this = object.create(null);
+//     //console.log(this);
 //     this.name = name;
+//     console.log(this);
 //     this.age = age;
 //     console.log(`${this.name}'s age is ${this.age}`);
 //     //return this
