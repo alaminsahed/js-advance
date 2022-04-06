@@ -1,4 +1,4 @@
-//Write a JavaScript function that returns a passed string with letters in alphabetical order. 
+//Write a JavaScript function that returns a passed string with letters in alphabetical order.
 // Example string : 'webmaster'
 // Expected Output : 'abeemrstw'
 
@@ -21,10 +21,26 @@
 
 //Write a JavaScript function that accepts a string as a parameter and find the longest word within the string
 
-const longestWord = (str) => {
-    const split = str.split(' ');
-    const result = split.sort((a, b) => { return b.length - a.length });
-    return result[0];
-}
+// const longestWord = (str) => {
+//     const split = str.split(' ');
+//     const result = split.sort((a, b) => { return b.length - a.length });
+//     return result[0];
+// }
 
-console.log(longestWord('Web Development Tutorial'));
+// console.log(longestWord('Web Development Tutorial'));
+
+
+//Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
+
+// const vowelCount = (str) => {
+//     const split = str.split('');
+//     const result = split.filter(char => {
+//         if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u') {
+//             return char;
+//         }
+//     }).length;
+//     return result;
+// }
+
+// console.log(vowelCount('The quick brown fox'));
+
