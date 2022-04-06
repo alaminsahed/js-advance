@@ -22,6 +22,6 @@ function reverseInt(n) {
     return reverseInt * Math.sign(n);
 }
 
-console.log(reverseInt(350))
+console.log(reverseInt(-350))
 
 
