@@ -4,6 +4,9 @@ function chunk(array, size) {
     const temp = [];
     for (let element of array) {
         const last = temp[temp.length - 1];
+        temp.length - 1
+        console.log(temp.length - 1);
+        console.log(temp[temp.length - 1]);
         if (!last || last.length === size) {
             temp.push([element])
 
@@ -21,4 +24,4 @@ function chunk(array, size) {
 }
 
 
-console.log(chunk([1, 2, 3, 4], 2));
+console.log(chunk([1, 2, 3], 2));

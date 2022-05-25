@@ -174,3 +174,83 @@
 // }
 
 // console.log(unique('abccdefghijklmnopqrstuvwxyz'));
+
+
+//Write a JavaScript function that returns array elements larger than a number. 
+
+// const findElement = (arr, num) => {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > num) {
+//             result.push(arr[i])
+//         }
+//     }
+//     return result
+// }
+
+// console.log(findElement([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 5));
+
+//Write a JavaScript function that generates a string id (specified length) of random characters. 
+
+// const randomChar = (num) => {
+//     const charList= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+//     for(let i=0;i<num;i++){
+//         let random = Math.floor(Math.random()*charList.length);
+//         console.log(random);
+//         //console.log(charList[random]);
+//     }
+// }
+
+//Write a JavaScript function to get all possible subset with a fixed length (for example 2) combinations in an array.
+
+// function subset(arra, arra_size) {
+//     var result_set = [],
+//         result;
+
+//     for (var x = 0; x < Math.pow(2, arra.length); x++) {
+//         result = [];
+//         i = arra.length - 1;
+//         do {
+//             if ((x & (1 << i)) !== 0) {
+//                 result.push(arra[i]);
+//             }
+//         } while (i--);
+
+//         if (result.length >= arra_size) {
+//             result_set.push(result);
+//         }
+//     }
+
+//     return result_set;
+// }
+
+// console.log(subset([1, 2, 3], 2));
+
+// var romanToInt = function (s) {
+//     const split = s.split('');
+//     console.log(split);
+//     let output = 0;
+//     for (let elements of split) {
+//         console.log(elements)
+//         if (elements === "I") {
+//             output += 1
+
+//         }
+
+//     }
+//     return output
+// };
+
+// console.log(romanToInt("III"));
+
+var mergeTwoLists = function (list1, list2) {
+    const arr1 = list1
+    const arr2 = list2
+
+    const output = [...arr1, ...arr2];
+    console.log(output)
+    return output
+};
+
+console.log(mergeTwoLists([1, 2, 4], [1, 3, 4]));
